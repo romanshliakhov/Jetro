@@ -1,1 +1,1 @@
-Практический сайт  <a href="https://romanshliakhov.github.io/Jetro/">Jetro</a>
+Верстка сайта <a href="https://romanshliakhov.github.io/Jetro/">Jetro</a> в целях обучения
