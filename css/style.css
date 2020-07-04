@@ -7,5 +7,9 @@ body {
 }
 
 header { 
-    background-color: red;
+    background-color: green;
+}
+
+footer {
+    background-color: blueviolet;
 }
