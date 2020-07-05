@@ -168,8 +168,14 @@ a {
 .works__title {
     color: #e8603c;
     font-size: 18px;
-    margin-bottom: 26px;
+    margin-bottom: 26px;    
     background-image: url(../images/line.jpg);
+}
+
+.works_title-text {
+    display: inline-block;
+    padding-right: 20px;
+    background-color: #fff;
 }
 
 .works__inner {
