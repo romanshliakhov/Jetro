@@ -177,11 +177,40 @@ a {
     background-image: url(../images/line.jpg);
 }
 
-.works__title span {
-    display: inline-block;
-    background-color: #fff;
-    padding-right: 20px;
+.works__inner {
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 48px;         
 }
+
+.works__items-img {
+    display: block;
+    max-width: 220px;              
+} 
+
+.works__box {
+    border: 1px solid #dbdbdb;
+    border-top: none;
+    /* border-left: 1px solid #dbdbdb ; 
+    border-right: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb; */
+    padding: 13px 14px;    
+}
+
+.works__subtitle {   
+    display: block; 
+    color: #b9b9b9;
+    font-size: 16px;
+    line-height: 18px;     
+    padding-bottom: 8px; 
+    padding-top: 13px;     
+} 
+
+.works__pubtime {          
+    font-size: 11px;
+    color: #e8663c;    
+    line-height: 18px;
+} 
 /* footer */
 .footer {
     min-height: 265px;
@@ -194,8 +223,8 @@ a {
     position: relative;
     background-color: #e8663c;
     color: #fff;
-    /* padding-top: 39px;
-    padding-bottom: 30px;  */
+    padding-top: 39px;
+    padding-bottom: 30px;  
     font-size: 12px;
     font-family: 'HelvecaNeue', sans-serif;
     font-weight: 400;     
@@ -222,42 +251,24 @@ a {
 }  
 
 .footer__items {
-    max-width: 260px;
-    margin-top: 39px;
-    /* margin-bottom: 30px;      */
+    max-width: 260px;   
 }
 
-.footer__title {
-    padding-bottom: 27px;
+.footer__title {    
     font-family: 'Bebas', sans-serif;
     font-size: 20px;
-    color: #fff;    
-}
-
-.footer__text {
-    /* padding-top: 15px; */
-    padding-bottom: 17px;
-}
-
-.footer__twits {
-    padding-bottom: 1px;
-
-}
-
-.footer__widget {
-    
+    color: #fff;   
+    padding-bottom: 28px; 
 }
 
 .footer__widget, .pubdate {
     color: #f3b29d;
 }
 
-
-
 .footer__phone {
     display: block;
-    /* padding-top: 3px;
-    padding-bottom: 21px; */
+    padding-top: 3px;
+    padding-bottom: 21px;
 }
 
 .footer__email, .footer__phone {
