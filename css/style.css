@@ -225,24 +225,27 @@ a {
     max-width: 260px;
 }
 
-.footer__item-title {
+.footer__title {
     font-family: 'Bebas', sans-serif;
     font-size: 20px;
-    color: #fff;
-    padding-bottom: 30px;
+    color: #fff;    
 }
 
-.footer__twitter-widget, .pubdate-datetime {
+.footer__text {
+    padding-top: 15px;
+}
+
+.footer__widget, .pubdate {
     color: #f3b29d;
 }
 
-.footer__item-phone {
+.footer__phone {
     display: block;
     padding-top: 3px;
     margin-bottom: 22px;
 }
 
-.footer__item-email, .footer__item-phone {
+.footer__email, .footer__phone {
     color: #fff;
 }
 
