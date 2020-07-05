@@ -47,8 +47,7 @@ a {
 .header__inner {
 	display: flex;
 	justify-content: space-between;
-    align-items: center;  
-       
+    align-items: center;         
 }
 
 .menu__item {
@@ -62,7 +61,6 @@ a {
 .menu__link{
     color: #b9b9b9 ;
     transition: 2s;
-
 }
 
 .menu__link--active {
@@ -70,8 +68,7 @@ a {
 }
 
 .menu__link:hover {
-    color: #e8663c;
-    
+    color: #e8663c;    
 }
 /* slider */
 .slider {
@@ -146,5 +143,106 @@ a {
 
 .preview .slick-track .preview__item + .preview__item {
     margin-left: 20px;
+}
+/* info items  */
+.info__inner {
+    padding-top: 40px;
+}
+
+.info__inner-item {
+    /* display: inline-block;
+    position: relative; */
+}
+
+.info__item-title {
+    font-size: 18px;
+    color: #e8663c;
+    line-height: 24px;  
+    padding-left: 70px; 
+    position: relative;
+}
+
+.info__item-text {      
+    font-family: 'HelveticaNeue', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color:#414141;
+    line-height: 18px;      
+}
+/* works */
+.works__title {
+    color: #e8603c;
+    font-size: 18px;
+    margin-bottom: 26px;
+    background-image: url(../images/line.jpg);
+}
+
+.works__title span {
+    display: inline-block;
+    background-color: #fff;
+    padding-right: 20px;
+}
+/* footer */
+.footer {
+    min-height: 263px;
+    overflow: hidden;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    background-color: #e8663c;
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 30px; 
+    font-size: 12px;
+    font-family: 'HelvecaNeue', sans-serif;
+    font-weight: 400;     
+}
+
+.footer__inner::before,
+.footer__inner::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background-color: #f1ad9b;
+}
+
+.footer__inner::before {
+    left: 10px;
+    margin-left: 100%;
+}
+
+.footer__inner::after {
+    right: 10px;
+    margin-right: 100%;
+}  
+
+.footer__items {
+    max-width: 260px;
+}
+
+.footer__item-title {
+    font-family: 'Bebas', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+.footer__twitter-widget, .pubdate-datetime {
+    color: #f3b29d;
+}
+
+.footer__item-phone {
+    display: block;
+    padding-top: 3px;
+    margin-bottom: 22px;
+}
+
+.footer__item-email, .footer__item-phone {
+    color: #fff;
 }
 
