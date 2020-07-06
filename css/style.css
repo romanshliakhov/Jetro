@@ -137,6 +137,25 @@ a {
     background-repeat: no-repeat;       
 }
 
+.slick-btn {
+    position: absolute;
+    top: 40%;
+    z-index: 25;
+}
+
+.slick-prev {
+    left: 26px;
+}
+
+.slick-next {
+    right: 26px;
+}
+
+.slick-prev::before,
+.slick-next::before {    
+    display: none;
+} 
+
 .preview .slick-track {
     transform: translate3d(0px, 0px, 0px) !important;
 }

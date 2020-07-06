@@ -1,9 +1,10 @@
 $(function(){
     $('.slider__inner').slick({
-        arrows: false, 
+        prevArrow: '<button type="button" class="slick-btn slick-prev"><img src="images/icons/previous.png" alt=""></button>',
+        nextArrow: '<button type="button" class="slick-btn slick-next"><img src="images/icons/next.png" alt=""></button>',
+        autoplay: 3000,
         fade: true,
-        asNavFor: '.preview', 
-                      
+        asNavFor: '.preview',                       
     }); 
 
     $('.preview').slick({
