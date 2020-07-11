@@ -21,7 +21,7 @@
                 </a>
 
                 <nav class="header__menu">
-                    <ul class="header_list">
+                    <ul class="header__list">
                         <li class="menu__item"><a class="menu__link menu__link--active" href="#">Home</a></li>
                         <li class="menu__item"><a class="menu__link" href="#">About Us</a></li>
                         <li class="menu__item"><a class="menu__link" href="#">Blog</a></li>
@@ -35,7 +35,7 @@
     <!-- slider -->
     <section class="slider">
         <div class="container">
-            <div class="slider__inner">                
+            <div class="slider__inner">
                 <div class="slider__item" style="background-image: url(images/slider-bg-1.jpg);">
                     <div class="slider__info">
                         <div class="slider__title">Slide One</div>
@@ -119,12 +119,12 @@
             </div>
         </div>
     </section>
-    <!-- info items -->
+    <!-- information -->
     <section class="info">
         <div class="container">
             <div class="info__inner">
                 <div class="info__box">
-                    <div class="info__title info__icon-check">
+                    <div class="info__title info__title--check">
                         Check out my latest portfolio items
                     </div>
                     <p class="info__text">
@@ -136,7 +136,7 @@
                     <a class="info__btn" href="#">More</a>
                 </div>
                 <div class="info__box">
-                    <div class="info__title info__icon-offer">
+                    <div class="info__title info__title--offer">
                         Offer Top Notch Quality Work & Services
                     </div>
                     <p class="info__text">
@@ -148,7 +148,7 @@
                     <a class="info__btn" href="#">More</a>
                 </div>
                 <div class="info__box">
-                    <div class="info__title info__icon-follow">
+                    <div class="info__title info__title--follow">
                         Follow Me on Twitter, Facebook & Pinterest
                     </div>
                     <p class="info__text">
@@ -166,11 +166,11 @@
     <section class="works">
         <div class="container">            
             <div class="works__title">
-                <span class="works_title-text">Recent Works</span>
+                <span class="works__title-text">Recent Works</span>
             </div>
 
             <div class="works__inner">
-                <div class="works__items">
+                <article class="works__items">
                     <a class="works__img" href="#">
                         <img class="works__items-img" src="images/recent1.png" alt="Character Design">
                     </a>
@@ -179,9 +179,9 @@
                         <a class="works__subtitle" href="#">Character Design</a>
                         <time class="works__pubtime">June 15, 2012</time> 
                     </div>                                       
-                </div>
+                </article>
 
-                <div class="works__items">
+                <article class="works__items">
                     <a class="works__img" href="#">
                         <img class="works__items-img" src="images/recent2.png" alt="Brochure Design">
                     </a>
@@ -190,9 +190,9 @@
                         <a class="works__subtitle" href="#">Brochure Design</a>
                         <time class="works__pubtime">June 15, 2012</time>
                     </div>                    
-                </div>
+                </article>
 
-                <div class="works__items">
+                <article class="works__items">
                     <a class="works__img" href="#">
                         <img class="works__items-img" src="images/recent3.png" alt="Social Media Buttons">
                     </a>
@@ -201,9 +201,9 @@
                         <a class="works__subtitle" href="#">Social Media Buttons</a>
                         <time class="works__pubtime">June 15, 2012</time>
                     </div>                    
-                </div>
+                </article>
 
-                <div class="works__items">
+                <article class="works__items">
                     <a class="works__img" href="#">
                         <img class="works__items-img" src="images/recent4.png" alt="10 Amazing Websites">
                     </a>
@@ -212,7 +212,7 @@
                         <a class="works__subtitle" href="#">10 Amazing Websites</a>
                         <time class="works__pubtime">June 15, 2012</time>
                     </div>                    
-                </div>
+                </article>
             </div>
         </div>
     </section>
@@ -220,7 +220,7 @@
     <footer class="footer">
         <div class="container">
             <div class="footer__inner">
-                <div class="footer__items">
+                <div class="footer__box">
                     <div class="footer__title">About Jetro</div>
                     <p class="footer__text">
                         Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea vel. Urbanitas adolescens vim te,
@@ -233,21 +233,21 @@
                     </p>
                 </div>
 
-                <div class="footer__items">
+                <div class="footer__box">
                     <div class="footer__title">Twitter Widget</div>
 
                     <p class="footer__text"><a class="footer__widget" href="#">@pixelmater</a> What an awesome design
                         with great functionality :)</p>
-                    <time datetime="YYYY-MM-DDThh:mm:ssTZD" class="pubdate">about 1 hour ago</time>
+                    <time datetime="YYYY-MM-DDThh:mm:ssTZD" class="footer__pubdate">about 1 hour ago</time>
 
                     <p class="footer__text"><a class="footer__widget" href="#">@designdude</a> What an awesome design
                         with great functionality :)</p>
-                    <time datetime="YYYY-MM-DDThh:mm:ssTZD" class="pubdate">about 2 hour ago</time>
+                    <time datetime="YYYY-MM-DDThh:mm:ssTZD" class="footer__pubdate">about 2 hour ago</time>
 
                     <p class="footer__text">Follow <a class="footer__widget" href="#">@bestpsdfreebies</a></p>
                 </div>
 
-                <div class="footer__items">
+                <div class="footer__box">
                     <div class="footer__title">Contact Us</div>
 
                     <p class="footer__text">
@@ -255,28 +255,40 @@
                         per at tritani aperiri.
                     </p>
 
-                    <a class="footer__email" href="mailto:information@jetro.com">information@jetro.com</a>
-                    <a class="footer__phone" href="tel:1.222.333.4444">1.222.333.4444</a>
-
-                    <a class="footer__link" href="#">
-                        <img class="footer__icon" src="images/icons/facebook.png" alt="facebook">
-                    </a>
-
-                    <a class="footer__social-link" href="#">
-                        <img class="footer__icon" src="images/icons/twitter.png" alt="twitter">
-                    </a>
-
-                    <a class="footer__social-link" href="#">
-                        <img class="footer__icon" src="images/icons/email.png" alt="email">
-                    </a>
-
-                    <a class="footer__link" href="#">
-                        <img class="footer__icon" src="images/icons/rss.png" alt="rss">
-                    </a>
-
-                    <a class="footer__link" href="#">
-                        <img class="footer__icon" src="images/icons/vimeo.png" alt="vimeo">
-                    </a>
+                    <address class="footer__contacts">
+                        <a class="footer__contacts-item" href="mailto:information@jetro.com">information@jetro.com</a>
+                        <a class="footer__contacts-item" href="tel:1.222.333.4444">1.222.333.4444</a>
+                    </address> 
+                    
+                    <div class="footer__socials">                      
+                        <ul class="footer__items">
+                            <li class="footer__list">
+                                <a class="footer__link" href="#">
+                                    <img class="footer__icon" src="images/icons/facebook.png" alt="facebook">
+                                </a>
+                            </li>
+                            <li class="footer__list">
+                                <a class="footer__link" href="#">
+                                    <img class="footer__icon" src="images/icons/twitter.png" alt="twitter">
+                                </a>
+                            </li>
+                            <li class="footer__list">
+                                <a class="footer__link" href="#">
+                                    <img class="footer__icon" src="images/icons/email.png" alt="email">
+                                </a>
+                            </li>
+                            <li class="footer__list">
+                                <a class="footer__link" href="#">
+                                    <img class="footer__icon" src="images/icons/rss.png" alt="rss">
+                                </a>
+                            </li>
+                            <li class="footer__list">
+                                <a class="footer__link" href="#">
+                                    <img class="footer__icon" src="images/icons/vimeo.png" alt="vimeo">
+                                </a>
+                            </li> 
+                        </ul>
+                    </div>                                                                                   
                 </div>
             </div>
         </div>
