@@ -85,6 +85,19 @@ a {
     color: #e8663c;
 }
 
+.header__menu-btn {
+    width: 30px;    
+    display: none;
+}
+
+.header__menu-row {
+    width: 100%;
+    background-color: #e8663c;
+    height: 4px;
+    margin-bottom: 4px;
+    z-index: 10;    
+}
+
  /* slider */
 .slider {
     overflow: hidden;
@@ -210,17 +223,20 @@ a {
 
 .info__title--check {        
     background-image: url(../images/icons/icon-check.png );
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat;   
+    height: 46px;   
 }
 
 .info__title--offer {
     background-image: url(../images/icons/icon-offer.png );
     background-repeat: no-repeat;
+    height: 46px;
 }
 
 .info__title--follow {    
     background-image: url(../images/icons/icon-follow.png );
     background-repeat: no-repeat;
+    height: 46px;
 }
 
 .info__text {      
@@ -256,7 +272,7 @@ a {
     background-image: url(../images/line.jpg);
 }
 
-.works_title-text {
+.works__title-text {
     display: inline-block;
     padding-right: 20px;
     background-color: #fff;
