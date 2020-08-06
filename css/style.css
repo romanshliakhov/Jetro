@@ -354,7 +354,7 @@ a {
 
 .footer__box {
     display: block;
-    max-width: 400px;      
+    max-width: 261px;      
 }
 
 .footer__box + .footer__box {
@@ -386,15 +386,21 @@ a {
     padding-top: 1px;
 }
 
+.footer__contacts {
+    font-family: 'HelveticaNeue', sans-serif;
+    font-size: 12px;
+    font-style: normal;    
+}
+
 .footer__contacts,
 .footer__socials  {
     padding-top: 5px;
 }
 
-.footer__contacts-item {
+.footer__contacts-item {      
     display: block;
-    padding-top: 1px;
-    color: #fff;    
+    padding-top: 1px;  
+    color: #fff;         
 }
 
 .footer__items {
